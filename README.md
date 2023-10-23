@@ -14,12 +14,13 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 4. Calculate Mean square error,data prediction and r2.
 
 ## Program:
+```
 /*
 Program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee.
 Developed by: JAYABHARATHI S
 RegisterNumber: 212222100013  
 */
-
+```
 ``` python
 import pandas as pd
 data=pd.read_csv("/content/Salary.csv")
