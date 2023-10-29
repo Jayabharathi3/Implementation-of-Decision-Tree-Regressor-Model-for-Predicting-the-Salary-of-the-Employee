@@ -22,13 +22,11 @@ RegisterNumber: 212222100013
 */
 ```
 ``` python
+
 import pandas as pd
 data=pd.read_csv("/content/Salary.csv")
-
 data.head()
-
 data.info()
-
 data.isnull().sum()
 
 from sklearn.preprocessing import LabelEncoder
@@ -61,25 +59,26 @@ dt.predict([[5,6]])
 ```
 
 ## Output:
-## data.head() 
+
+## INITIAL DATASET
 ![image](https://github.com/Jayabharathi3/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/120367796/3d75eb95-5d88-4f92-9f82-b05db357e6b5)
 
-## data.info()
+## DATA.INFO ()
 ![image](https://github.com/Jayabharathi3/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/120367796/4ce86a6f-c2ec-4be2-b046-13148752b782)
 
-## isnull() and sum()
+## OPTIMIZATION OF NULL VALUES
 ![image](https://github.com/Jayabharathi3/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/120367796/e8cdaf67-5163-437d-bd2c-4f1e07e52ee9)
 
-## data.head() for salary
+## Converting string literals to numerical values using label encoder:
 ![image](https://github.com/Jayabharathi3/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/120367796/b1333c5c-6329-491e-960c-3c6170cadc4a)
 
 ## MSE Value
 ![image](https://github.com/Jayabharathi3/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/120367796/217832af-8cb3-4618-ac2d-56a18454acd2)
 
-## r2 value
+## R2 VALUE (VARIANCE) :
 ![image](https://github.com/Jayabharathi3/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/120367796/548469a1-d792-4d48-8233-991e8fc1d7c0)
 
-## data prediction
+## DATA PREDICTION
 ![image](https://github.com/Jayabharathi3/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/120367796/2e877b04-fafe-4c10-a3bb-79d84e20a780)
 
 
